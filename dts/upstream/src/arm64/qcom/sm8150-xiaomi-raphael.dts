@@ -568,6 +568,7 @@
 		vsn-supply = <&vreg_ibb>;
 		vsp-supply = <&vreg_lab>;
 
+		te-gpios = <&tlmm 8 GPIO_ACTIVE_LOW>;
 		reset-gpios = <&tlmm 6 GPIO_ACTIVE_LOW>;
 		
 		pinctrl-names = "default", "sleep";

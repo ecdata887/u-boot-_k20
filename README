@@ -211,6 +211,7 @@ The following options need to be configured:
 		at run time.
 
 - Linux Kernel Interface:
+
 		CONFIG_OF_LIBFDT
 
 		New kernel versions are expecting firmware settings to be

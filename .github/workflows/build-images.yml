@@ -53,4 +53,5 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: u-boot-${{ matrix.device }}-usb-${{ matrix.usb_mode }}.img
-          path: .output/u-boot.img
+          path: |
+           u-boot.img

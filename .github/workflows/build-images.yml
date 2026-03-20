@@ -1,7 +1,7 @@
 name: Build images
 
 on: [push]
-
+ workflow_dispatch: # 启用手动触发功能
 jobs:
   build:
     strategy:

@@ -1,6 +1,6 @@
 name: Build images
 
-on: [push]
+on: 
  workflow_dispatch: # 启用手动触发功能
 jobs:
   build:
